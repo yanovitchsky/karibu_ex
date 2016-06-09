@@ -7,5 +7,5 @@
   "logger_file_backend": {:hex, :logger_file_backend, "0.0.7", "6bf4df77dab45d09617c6eed0c2f813f2123d352b366411b01e4378a3d106851", [:mix], []},
   "meck": {:hex, :meck, "0.8.4", "59ca1cd971372aa223138efcf9b29475bde299e1953046a0c727184790ab1520", [:rebar, :make], []},
   "msgpax": {:hex, :msgpax, "0.8.2", "0e83d86e7cbf1bdcf7b870c25951df042ec19f9804a1a9c2fa59091a43ee2886", [:mix], []},
-  "poolboy": {:git, "https://github.com/devinus/poolboy.git", "3bb48a893ff5598f7c73731ac17545206d259fac", [tag: "1.5.1"]},
+  "poolboy": {:hex, :poolboy, "1.5.1", "6b46163901cfd0a1b43d692657ed9d7e599853b3b21b95ae5ae0a777cf9b6ca8", [:rebar], []},
   "towel": {:hex, :towel, "0.2.1", "665485fc8acda2565fd7f79e47008cbc60708bcb573a975575190275fa6db393", [:mix], []}}

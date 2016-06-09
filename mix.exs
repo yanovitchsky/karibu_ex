@@ -40,7 +40,7 @@ defmodule Karibuex.Mixfile do
   defp deps do
     [
       {:ezmq, git: "https://github.com/zeromq/ezmq.git"},
-      {:poolboy, git: "https://github.com/devinus/poolboy.git", tag: "1.5.1"},
+      {:poolboy, "~> 1.5"},
       {:msgpax, "~> 0.8"},
       {:logger_file_backend, "0.0.7"},
       {:towel, "~> 0.2.1"},
