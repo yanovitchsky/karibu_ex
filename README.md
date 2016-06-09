@@ -18,7 +18,7 @@ The package can be installed as:
           [applications: [:karibuex]]
         end
 
-  3. add karibuex configuration for the project in your config.exs
+  3. add karibuex configuration for the project to `config/config.exs`:
 
         config :karibuex, port: 5000
         config :karibuex, modules: [UserModuleTest]
@@ -26,7 +26,7 @@ The package can be installed as:
         config :karibuex, workers: 10
 
 
-  4. add logger configuration to your config.exs
+  4. add logger configuration to `config/config.exs`
 
         config :logger, backends: [{LoggerFileBackend, :info}, {LoggerFileBackend, :error}, :console]
 
