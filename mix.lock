@@ -4,6 +4,8 @@
   "gen_listener_tcp": {:git, "https://github.com/travelping/gen_listener_tcp.git", "afc9ba8d966d262f578f0203fbf80d48d4facf0c", [tag: "0.3.1"]},
   "goldrush": {:git, "git://github.com/DeadZen/goldrush.git", "71e63212f12c25827e0c1b4198d37d5d018a7fec", [tag: "0.1.6"]},
   "lager": {:git, "https://github.com/basho/lager.git", "d33ccf3b69de09a628fe38b4d7981bb8671b8a4f", [tag: "2.1.1"]},
+  "logger_file_backend": {:hex, :logger_file_backend, "0.0.7", "6bf4df77dab45d09617c6eed0c2f813f2123d352b366411b01e4378a3d106851", [:mix], []},
   "meck": {:hex, :meck, "0.8.4", "59ca1cd971372aa223138efcf9b29475bde299e1953046a0c727184790ab1520", [:rebar, :make], []},
   "msgpax": {:hex, :msgpax, "0.8.2", "0e83d86e7cbf1bdcf7b870c25951df042ec19f9804a1a9c2fa59091a43ee2886", [:mix], []},
-  "poolboy": {:git, "https://github.com/devinus/poolboy.git", "3bb48a893ff5598f7c73731ac17545206d259fac", [tag: "1.5.1"]}}
+  "poolboy": {:git, "https://github.com/devinus/poolboy.git", "3bb48a893ff5598f7c73731ac17545206d259fac", [tag: "1.5.1"]},
+  "towel": {:hex, :towel, "0.2.1", "665485fc8acda2565fd7f79e47008cbc60708bcb573a975575190275fa6db393", [:mix], []}}

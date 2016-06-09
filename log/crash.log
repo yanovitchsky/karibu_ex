@@ -1,2014 +1,1072 @@
-2016-05-18 18:23:59 =SUPERVISOR REPORT====
+2016-06-08 16:56:41 =SUPERVISOR REPORT====
      Supervisor: {local,'Elixir.Logger.Supervisor'}
      Context:    child_terminated
      Reason:     normal
-     Offender:   [{pid,<0.170.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+     Offender:   [{pid,<0.160.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
-2016-05-18 18:24:04 =SUPERVISOR REPORT====
+2016-06-08 16:57:33 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.Karibuex.Server.Supervisor/1
+    pid: <0.212.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[worker_pool,{checkout,#Ref<0.0.4.370>,true},5000]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.211.0>]
+    messages: []
+    links: [<0.211.0>,<0.213.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 255
+  neighbours:
+2016-06-08 17:01:15 =SUPERVISOR REPORT====
      Supervisor: {local,'Elixir.Logger.Supervisor'}
      Context:    child_terminated
      Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+     Offender:   [{pid,<0.228.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
-2016-05-18 18:24:35 =SUPERVISOR REPORT====
+2016-06-08 17:01:21 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.Karibuex.Server.Supervisor/1
+    pid: <0.280.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[worker_pool,{checkout,#Ref<0.0.2.1362>,true},5000]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.279.0>]
+    messages: []
+    links: [<0.279.0>,<0.281.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 255
+  neighbours:
+2016-06-08 17:03:26 =SUPERVISOR REPORT====
      Supervisor: {local,'Elixir.Logger.Supervisor'}
      Context:    child_terminated
      Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+     Offender:   [{pid,<0.160.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
-2016-05-18 18:25:59 =SUPERVISOR REPORT====
+2016-06-08 17:03:54 =SUPERVISOR REPORT====
      Supervisor: {local,'Elixir.Logger.Supervisor'}
      Context:    child_terminated
      Reason:     normal
-     Offender:   [{pid,<0.170.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
-2016-05-18 18:25:59 =CRASH REPORT====
+2016-06-08 17:39:19 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.160.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-08 17:39:23 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.Karibuex.Server.Supervisor/1
+    pid: <0.212.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[worker_pool,{checkout,#Ref<0.0.1.389>,true},5000]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.211.0>]
+    messages: []
+    links: [<0.211.0>,<0.213.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 255
+  neighbours:
+2016-06-08 18:33:27 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.160.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-08 18:33:32 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.Karibuex.Server.Supervisor/1
+    pid: <0.212.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Karibu.Server.Dispatcher',start_link,[#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}],[]},{'Elixir.Karibuex.Server.Listener',loop,2,[{file,"lib/karibuex/server/listener.ex"},{line,16}]},{'Elixir.Karibuex.Server.Supervisor',init,1,[{file,"lib/karibuex/server/supervisor.ex"},{line,25}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,287}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.211.0>]
+    messages: []
+    links: [<0.211.0>,<0.213.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 240
+  neighbours:
+2016-06-08 18:33:32 =CRASH REPORT====
   crasher:
     initial call: application_master:init/4
+    pid: <0.210.0>
+    registered_name: []
+    exception exit: {{{undef,[{'Elixir.Karibu.Server.Dispatcher',start_link,[#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}],[]},{'Elixir.Karibuex.Server.Listener',loop,2,[{file,"lib/karibuex/server/listener.ex"},{line,16}]},{'Elixir.Karibuex.Server.Supervisor',init,1,[{file,"lib/karibuex/server/supervisor.ex"},{line,25}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,287}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{'Elixir.Karibuex',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.209.0>]
+    messages: [{'EXIT',<0.211.0>,normal}]
+    links: [<0.209.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 182
+  neighbours:
+2016-06-08 18:35:18 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-08 18:37:12 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-08 18:38:34 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-08 18:39:54 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-08 18:41:55 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-08 18:43:24 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-08 18:44:39 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-08 18:46:31 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 10:38:17 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 10:40:11 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 10:42:38 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 10:43:08 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 10:43:38 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 10:44:27 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 10:44:49 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 10:45:20 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 10:47:37 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 10:56:07 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 10:56:37 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 10:57:25 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 10:57:53 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 11:03:26 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 11:05:35 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.166.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 11:05:38 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.Karibuex.Server.Supervisor/1
+    pid: <0.218.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[worker_pool,{checkout,#Ref<0.0.3.372>,true},5000]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.217.0>]
+    messages: []
+    links: [<0.217.0>,<0.219.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 255
+  neighbours:
+2016-06-09 11:08:44 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 11:08:47 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.Karibuex.Server.Supervisor/1
+    pid: <0.206.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[worker_pool,{checkout,#Ref<0.0.3.383>,true},5000]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.205.0>]
+    messages: []
+    links: [<0.205.0>,<0.207.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 255
+  neighbours:
+2016-06-09 11:10:30 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 11:10:33 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.Karibuex.Server.Supervisor/1
+    pid: <0.206.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[worker_pool,{checkout,#Ref<0.0.2.377>,true},5000]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.205.0>]
+    messages: []
+    links: [<0.205.0>,<0.207.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 718
+  neighbours:
+2016-06-09 11:14:03 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 11:14:05 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.Karibuex.Server.Supervisor/1
+    pid: <0.206.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[worker_pool,{checkout,#Ref<0.0.4.310>,true},5000]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.205.0>]
+    messages: []
+    links: [<0.205.0>,<0.207.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 693
+  neighbours:
+2016-06-09 11:14:45 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.141.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 11:21:46 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 11:21:52 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.Karibuex.Server.Supervisor/1
+    pid: <0.206.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[worker_pool,{checkout,#Ref<0.0.7.198>,true},5000]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.205.0>]
+    messages: []
+    links: [<0.205.0>,<0.207.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 675
+  neighbours:
+2016-06-09 11:27:41 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 11:27:45 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.Karibuex.Server.Supervisor/1
+    pid: <0.206.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[worker_pool,{checkout,#Ref<0.0.5.292>,true},5000]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.205.0>]
+    messages: []
+    links: [<0.205.0>,<0.207.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 671
+  neighbours:
+2016-06-09 11:35:08 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.228.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 11:35:23 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.Karibuex.Server.Supervisor/1
+    pid: <0.280.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[worker_pool,{checkout,#Ref<0.0.2.307>,true},5000]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.279.0>]
+    messages: []
+    links: [<0.279.0>,<0.281.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 623
+  neighbours:
+2016-06-09 11:35:23 =ERROR REPORT====
+** Generic server <0.281.0> terminating 
+** Last message in was {'EXIT',<0.280.0>,{noproc,{gen_server,call,[worker_pool,{checkout,#Ref<0.0.2.307>,true},5000]}}}
+** When Server state == {ezmq_socket,{2,0},<0.280.0>,router,{fsm_state,ezmq_socket_router,idle,{state}},<<>>,false,passive,[],none,[],none,[],[{<0.282.0>,[{tcp,5000,[]}]}],[<0.284.0>],[{#Ref<0.0.2.306>,<0.284.0>}]}
+** Reason for termination == 
+** {noproc,{gen_server,call,[worker_pool,{checkout,#Ref<0.0.2.307>,true},5000]}}
+2016-06-09 11:35:23 =CRASH REPORT====
+  crasher:
+    initial call: ezmq:init/1
+    pid: <0.281.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[worker_pool,{checkout,#Ref<0.0.2.307>,true},5000]}},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.280.0>,<0.279.0>]
+    messages: []
+    links: [<0.282.0>,<0.284.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 298
+  neighbours:
+2016-06-09 11:42:29 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 11:46:47 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 11:46:47 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.Karibuex.Server.Supervisor/1
+    pid: <0.206.0>
+    registered_name: []
+    exception exit: {{start_spec,{invalid_mfa,{'Elixir.Karibuex.Server.Listener',start_link,#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}}}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,344}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.205.0>]
+    messages: []
+    links: [<0.205.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 592
+  neighbours:
+2016-06-09 11:46:47 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.204.0>
+    registered_name: []
+    exception exit: {{{start_spec,{invalid_mfa,{'Elixir.Karibuex.Server.Listener',start_link,#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}}}},{'Elixir.Karibuex',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.203.0>]
+    messages: [{'EXIT',<0.205.0>,normal}]
+    links: [<0.203.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 117
+  neighbours:
+2016-06-09 11:50:05 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 11:50:05 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.Karibuex.Server.Supervisor/1
+    pid: <0.206.0>
+    registered_name: []
+    exception exit: {{start_spec,{invalid_mfa,{'Elixir.Karibuex.Server.Listener',start_link,#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}}}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,344}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.205.0>]
+    messages: []
+    links: [<0.205.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 585
+  neighbours:
+2016-06-09 11:50:05 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.204.0>
+    registered_name: []
+    exception exit: {{{start_spec,{invalid_mfa,{'Elixir.Karibuex.Server.Listener',start_link,#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}}}},{'Elixir.Karibuex',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.203.0>]
+    messages: [{'EXIT',<0.205.0>,normal}]
+    links: [<0.203.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 117
+  neighbours:
+2016-06-09 11:50:30 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 11:50:30 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.Karibuex.Server.Supervisor/1
+    pid: <0.206.0>
+    registered_name: []
+    exception exit: {{start_spec,{invalid_mfa,{'Elixir.Karibuex.Server.Listener',start_link,#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}}}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,344}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.205.0>]
+    messages: []
+    links: [<0.205.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 585
+  neighbours:
+2016-06-09 11:50:30 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.204.0>
+    registered_name: []
+    exception exit: {{{start_spec,{invalid_mfa,{'Elixir.Karibuex.Server.Listener',start_link,#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}}}},{'Elixir.Karibuex',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.203.0>]
+    messages: [{'EXIT',<0.205.0>,normal}]
+    links: [<0.203.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 117
+  neighbours:
+2016-06-09 11:50:59 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 11:50:59 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.Karibuex.Server.Supervisor/1
+    pid: <0.206.0>
+    registered_name: []
+    exception exit: {{start_spec,{invalid_mfa,{'Elixir.Karibuex.Server.Listener',start_link,#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}}}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,344}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.205.0>]
+    messages: []
+    links: [<0.205.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 585
+  neighbours:
+2016-06-09 11:50:59 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.204.0>
+    registered_name: []
+    exception exit: {{{start_spec,{invalid_mfa,{'Elixir.Karibuex.Server.Listener',start_link,#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}}}},{'Elixir.Karibuex',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.203.0>]
+    messages: [{'EXIT',<0.205.0>,normal}]
+    links: [<0.203.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 117
+  neighbours:
+2016-06-09 11:58:54 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 11:58:55 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.Karibuex.Server.Supervisor/1
+    pid: <0.206.0>
+    registered_name: []
+    exception exit: {{start_spec,{invalid_mfa,{'Elixir.Karibuex.Server.Listener',start_link,#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}}}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,344}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.205.0>]
+    messages: []
+    links: [<0.205.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 592
+  neighbours:
+2016-06-09 11:58:55 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.204.0>
+    registered_name: []
+    exception exit: {{{start_spec,{invalid_mfa,{'Elixir.Karibuex.Server.Listener',start_link,#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}}}},{'Elixir.Karibuex',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.203.0>]
+    messages: [{'EXIT',<0.205.0>,normal}]
+    links: [<0.203.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 117
+  neighbours:
+2016-06-09 12:00:11 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 12:00:11 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.Karibuex.Server.Supervisor/1
+    pid: <0.206.0>
+    registered_name: []
+    exception exit: {{start_spec,{invalid_mfa,{'Elixir.Karibuex.Server.Listener',start_link,#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}}}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,344}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.205.0>]
+    messages: []
+    links: [<0.205.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 592
+  neighbours:
+2016-06-09 12:00:11 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.204.0>
+    registered_name: []
+    exception exit: {{{start_spec,{invalid_mfa,{'Elixir.Karibuex.Server.Listener',start_link,#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}}}},{'Elixir.Karibuex',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.203.0>]
+    messages: [{'EXIT',<0.205.0>,normal}]
+    links: [<0.203.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 117
+  neighbours:
+2016-06-09 12:00:46 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 12:00:46 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.Karibuex.Server.Supervisor/1
+    pid: <0.206.0>
+    registered_name: []
+    exception exit: {{start_spec,{invalid_mfa,{'Elixir.Karibuex.Server.Listener',start_link,#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}}}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,344}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.205.0>]
+    messages: []
+    links: [<0.205.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 592
+  neighbours:
+2016-06-09 12:00:46 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.204.0>
+    registered_name: []
+    exception exit: {{{start_spec,{invalid_mfa,{'Elixir.Karibuex.Server.Listener',start_link,#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}}}},{'Elixir.Karibuex',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.203.0>]
+    messages: [{'EXIT',<0.205.0>,normal}]
+    links: [<0.203.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 117
+  neighbours:
+2016-06-09 12:01:14 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 12:01:14 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.Karibuex.Server.Supervisor/1
+    pid: <0.206.0>
+    registered_name: []
+    exception exit: {{start_spec,{invalid_mfa,{'Elixir.Karibuex.Server.Listener',start_link,#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}}}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,344}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.205.0>]
+    messages: []
+    links: [<0.205.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 592
+  neighbours:
+2016-06-09 12:01:14 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.204.0>
+    registered_name: []
+    exception exit: {{{start_spec,{invalid_mfa,{'Elixir.Karibuex.Server.Listener',start_link,#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}}}},{'Elixir.Karibuex',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.203.0>]
+    messages: [{'EXIT',<0.205.0>,normal}]
+    links: [<0.203.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 117
+  neighbours:
+2016-06-09 12:02:34 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 12:02:34 =ERROR REPORT====
+** Task <0.220.0> terminating
+** Started from <0.206.0>
+** When function  == #Fun<erlang.apply.2>
+**      arguments == [#Fun<Elixir.Karibuex.Server.Listener.1.92767451>,[]]
+** Reason for termination == 
+** {{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.92767451>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2016-06-09 12:02:34 =CRASH REPORT====
+  crasher:
+    initial call: erlang:apply/2
     pid: <0.220.0>
     registered_name: []
-    exception exit: {{bad_return,{{'Elixir.Karibuex',start,[normal,[]]},{'EXIT',{undef,[{'Elixir.Karibuex',start,[normal,[]],[]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,273}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.219.0>]
-    messages: [{'EXIT',<0.221.0>,normal}]
-    links: [<0.219.0>,<0.7.0>]
+    exception exit: {{{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.92767451>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{'Elixir.Task.Supervised',exit,4,[{file,"lib/task/supervised.ex"},{line,120}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.206.0>,<0.205.0>]
+    messages: []
+    links: [<0.206.0>]
     dictionary: []
-    trap_exit: true
+    trap_exit: false
     status: running
     heap_size: 610
     stack_size: 27
-    reductions: 124
+    reductions: 116
   neighbours:
-2016-05-18 18:26:59 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
+2016-06-09 12:02:34 =SUPERVISOR REPORT====
+     Supervisor: {<0.206.0>,'Elixir.Karibuex.Server.Supervisor'}
      Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+     Reason:     {{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.92767451>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.220.0>},{id,'Elixir.Karibuex.Server.Listener'},{mfargs,{'Elixir.Karibuex.Server.Listener',start_link,[#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
-2016-05-18 18:26:59 =CRASH REPORT====
+2016-06-09 12:02:34 =ERROR REPORT====
+** Task <0.221.0> terminating
+** Started from <0.206.0>
+** When function  == #Fun<erlang.apply.2>
+**      arguments == [#Fun<Elixir.Karibuex.Server.Listener.1.92767451>,[]]
+** Reason for termination == 
+** {{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.92767451>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2016-06-09 12:02:34 =CRASH REPORT====
   crasher:
-    initial call: application_master:init/4
-    pid: <0.194.0>
+    initial call: erlang:apply/2
+    pid: <0.221.0>
     registered_name: []
-    exception exit: {{bad_return,{{'Elixir.Karibuex',start,[normal,[]]},{'EXIT',{undef,[{'Elixir.Karibuex',start,[normal,[]],[]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,273}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.193.0>]
-    messages: [{'EXIT',<0.195.0>,normal}]
-    links: [<0.193.0>,<0.7.0>]
+    exception exit: {{{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.92767451>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{'Elixir.Task.Supervised',exit,4,[{file,"lib/task/supervised.ex"},{line,120}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.206.0>,<0.205.0>]
+    messages: []
+    links: [<0.206.0>]
     dictionary: []
-    trap_exit: true
+    trap_exit: false
     status: running
     heap_size: 610
     stack_size: 27
-    reductions: 124
+    reductions: 112
   neighbours:
-2016-05-18 18:27:25 =SUPERVISOR REPORT====
+2016-06-09 12:02:34 =SUPERVISOR REPORT====
+     Supervisor: {<0.206.0>,'Elixir.Karibuex.Server.Supervisor'}
+     Context:    child_terminated
+     Reason:     {{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.92767451>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.221.0>},{id,'Elixir.Karibuex.Server.Listener'},{mfargs,{'Elixir.Karibuex.Server.Listener',start_link,[#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 12:02:34 =ERROR REPORT====
+** Task <0.222.0> terminating
+** Started from <0.206.0>
+** When function  == #Fun<erlang.apply.2>
+**      arguments == [#Fun<Elixir.Karibuex.Server.Listener.1.92767451>,[]]
+** Reason for termination == 
+** {{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.92767451>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2016-06-09 12:02:34 =CRASH REPORT====
+  crasher:
+    initial call: erlang:apply/2
+    pid: <0.222.0>
+    registered_name: []
+    exception exit: {{{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.92767451>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{'Elixir.Task.Supervised',exit,4,[{file,"lib/task/supervised.ex"},{line,120}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.206.0>,<0.205.0>]
+    messages: []
+    links: [<0.206.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 144
+  neighbours:
+2016-06-09 12:02:34 =SUPERVISOR REPORT====
+     Supervisor: {<0.206.0>,'Elixir.Karibuex.Server.Supervisor'}
+     Context:    child_terminated
+     Reason:     {{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.92767451>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.222.0>},{id,'Elixir.Karibuex.Server.Listener'},{mfargs,{'Elixir.Karibuex.Server.Listener',start_link,[#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 12:02:34 =ERROR REPORT====
+** Task <0.223.0> terminating
+** Started from <0.206.0>
+** When function  == #Fun<erlang.apply.2>
+**      arguments == [#Fun<Elixir.Karibuex.Server.Listener.1.92767451>,[]]
+** Reason for termination == 
+** {{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.92767451>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2016-06-09 12:02:34 =CRASH REPORT====
+  crasher:
+    initial call: erlang:apply/2
+    pid: <0.223.0>
+    registered_name: []
+    exception exit: {{{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.92767451>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{'Elixir.Task.Supervised',exit,4,[{file,"lib/task/supervised.ex"},{line,120}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.206.0>,<0.205.0>]
+    messages: []
+    links: [<0.206.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 160
+  neighbours:
+2016-06-09 12:02:34 =SUPERVISOR REPORT====
+     Supervisor: {<0.206.0>,'Elixir.Karibuex.Server.Supervisor'}
+     Context:    child_terminated
+     Reason:     {{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.92767451>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.223.0>},{id,'Elixir.Karibuex.Server.Listener'},{mfargs,{'Elixir.Karibuex.Server.Listener',start_link,[#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 12:02:34 =SUPERVISOR REPORT====
+     Supervisor: {<0.206.0>,'Elixir.Karibuex.Server.Supervisor'}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.223.0>},{id,'Elixir.Karibuex.Server.Listener'},{mfargs,{'Elixir.Karibuex.Server.Listener',start_link,[#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 12:03:01 =SUPERVISOR REPORT====
      Supervisor: {local,'Elixir.Logger.Supervisor'}
      Context:    child_terminated
      Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
-2016-05-18 18:27:25 =CRASH REPORT====
+2016-06-09 12:03:01 =SUPERVISOR REPORT====
+     Supervisor: {<0.206.0>,'Elixir.Karibuex.Server.Supervisor'}
+     Context:    start_error
+     Reason:     {'EXIT',{function_clause,[{'Elixir.Karibuex.Server.Listener',start_link,[#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}],[{file,"lib/karibuex/server/listener.ex"},{line,4}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,358}]},{supervisor,start_children,3,[{file,"supervisor.erl"},{line,341}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,307}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}}
+     Offender:   [{pid,undefined},{id,'Elixir.Karibuex.Server.Listener'},{mfargs,{'Elixir.Karibuex.Server.Listener',start_link,[#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 12:03:01 =CRASH REPORT====
   crasher:
     initial call: application_master:init/4
-    pid: <0.194.0>
+    pid: <0.204.0>
     registered_name: []
-    exception exit: {{bad_return,{{'Elixir.Karibuex',start,[normal,[]]},nil}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.193.0>]
-    messages: [{'EXIT',<0.195.0>,normal}]
-    links: [<0.193.0>,<0.7.0>]
+    exception exit: {{{shutdown,{failed_to_start_child,'Elixir.Karibuex.Server.Listener',{'EXIT',{function_clause,[{'Elixir.Karibuex.Server.Listener',start_link,[#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}],[{file,"lib/karibuex/server/listener.ex"},{line,4}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,358}]},{supervisor,start_children,3,[{file,"supervisor.erl"},{line,341}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,307}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}}}},{'Elixir.Karibuex',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.203.0>]
+    messages: [{'EXIT',<0.205.0>,normal}]
+    links: [<0.203.0>,<0.7.0>]
     dictionary: []
     trap_exit: true
     status: running
-    heap_size: 376
+    heap_size: 987
     stack_size: 27
-    reductions: 114
+    reductions: 186
   neighbours:
-2016-05-18 18:28:27 =SUPERVISOR REPORT====
+2016-06-09 12:03:21 =SUPERVISOR REPORT====
      Supervisor: {local,'Elixir.Logger.Supervisor'}
      Context:    child_terminated
      Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
-2016-05-18 18:28:27 =CRASH REPORT====
+2016-06-09 12:03:21 =ERROR REPORT====
+** Task <0.220.0> terminating
+** Started from <0.206.0>
+** When function  == #Fun<erlang.apply.2>
+**      arguments == [#Fun<Elixir.Karibuex.Server.Listener.1.24962605>,[]]
+** Reason for termination == 
+** {{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.24962605>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2016-06-09 12:03:21 =CRASH REPORT====
   crasher:
-    initial call: application_master:init/4
-    pid: <0.194.0>
-    registered_name: []
-    exception exit: {{bad_return,{{'Elixir.Karibuex',start,[normal,[]]},ok}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.193.0>]
-    messages: [{'EXIT',<0.195.0>,normal}]
-    links: [<0.193.0>,<0.7.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 114
-  neighbours:
-2016-05-18 18:29:26 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.170.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 18:29:26 =CRASH REPORT====
-  crasher:
-    initial call: application_master:init/4
+    initial call: erlang:apply/2
     pid: <0.220.0>
     registered_name: []
-    exception exit: {{bad_return,{{'Elixir.Karibuex',start,[normal,[]]},ok}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.219.0>]
-    messages: [{'EXIT',<0.221.0>,normal}]
-    links: [<0.219.0>,<0.7.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 114
-  neighbours:
-2016-05-18 18:30:34 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 18:30:34 =CRASH REPORT====
-  crasher:
-    initial call: application_master:init/4
-    pid: <0.194.0>
-    registered_name: []
-    exception exit: {{bad_return,{{'Elixir.Karibuex',start,[normal,[]]},{'EXIT',{undef,[{'Elixir.Karibuex',start,[normal,[]],[]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,273}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.193.0>]
-    messages: [{'EXIT',<0.195.0>,normal}]
-    links: [<0.193.0>,<0.7.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 610
-    stack_size: 27
-    reductions: 124
-  neighbours:
-2016-05-18 18:32:07 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.170.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 18:33:19 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 18:34:05 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.151.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 18:36:34 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.155.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 18:40:25 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 18:40:35 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 18:41:24 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 18:41:43 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 22:52:07 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 22:52:41 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 22:53:43 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 22:54:04 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 22:54:17 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 22:55:03 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 23:07:53 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.170.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 23:10:44 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 23:11:33 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 23:13:45 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 23:13:58 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 23:29:26 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 23:30:00 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 23:30:32 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 23:31:51 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-18 23:33:42 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-19 00:06:40 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.145.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-19 00:06:40 =ERROR REPORT====
-Loading of /Users/yannakoun/Project/Visibleo/karibuex/_build/test/lib/espec/ebin/Elixir.Espec.beam failed: badfile
-2016-05-19 00:06:40 =ERROR REPORT====
-beam/beam_load.c(1278): Error loading module 'Elixir.Espec':
-  module name in object code is Elixir.ESpec
-
-2016-05-19 00:06:57 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-19 00:07:17 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-19 00:07:31 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-19 00:07:45 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-19 00:07:58 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-19 00:10:21 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 20:09:10 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.744.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 21:14:26 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 21:55:25 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 21:57:50 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.151.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:11:16 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.150.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:15:12 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:15:42 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:16:42 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.188.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:17:50 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.188.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:17:50 =SUPERVISOR REPORT====
-     Supervisor: {<0.251.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    start_error
-     Reason:     {'EXIT',{function_clause,[{ezmq,bind,[<0.252.0>,tcp,[5000],[]],[{file,"src/ezmq.erl"},{line,64}]},{'Elixir.Karibuex.Server.Unit',start_link,1,[{file,"lib/karibuex/server/unit.ex"},{line,5}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,358}]},{supervisor,start_children,3,[{file,"supervisor.erl"},{line,341}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,307}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}}
-     Offender:   [{pid,undefined},{id,'Elixir.Karibuex.Server.Unit'},{mfargs,{'Elixir.Karibuex.Server.Unit',start_link,[[5000]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:19:24 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.188.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:19:25 =SUPERVISOR REPORT====
-     Supervisor: {<0.251.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    start_error
-     Reason:     {'EXIT',{function_clause,[{ezmq,bind,[<0.252.0>,tcp,[5000],[]],[{file,"src/ezmq.erl"},{line,64}]},{'Elixir.Karibuex.Server.Unit',start_link,1,[{file,"lib/karibuex/server/unit.ex"},{line,5}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,358}]},{supervisor,start_children,3,[{file,"supervisor.erl"},{line,341}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,307}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}}
-     Offender:   [{pid,undefined},{id,'Elixir.Karibuex.Server.Unit'},{mfargs,{'Elixir.Karibuex.Server.Unit',start_link,[[5000]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:20:27 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:25:58 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:31:48 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:32:27 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:32:41 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:33:37 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:33:52 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:34:11 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:34:23 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:34:38 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:34:47 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:35:14 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:35:28 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:39:55 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:40:16 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:40:56 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:41:10 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:43:59 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:45:01 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:45:24 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:45:24 =ERROR REPORT====
-** State machine <0.202.0> terminating 
-** Last event in was {send,[{normal,<<>>},{normal,<<"Plop">>},{normal,0}]}
-** When State == connected
-**      Data  == {state,client,req,<0.198.0>,<<>>,#Ref<0.0.4.145>,0,#Port<0.6870>,{2,0},[],'$identity',<<>>}
-** Reason for termination = 
-** {badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-21 22:45:24 =CRASH REPORT====
-  crasher:
-    initial call: ezmq_link:init/1
-    pid: <0.202.0>
-    registered_name: []
-    exception exit: {{badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,626}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [ezmq_link_sup,ezmq_sup,<0.175.0>]
+    exception exit: {{{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.24962605>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{'Elixir.Task.Supervised',exit,4,[{file,"lib/task/supervised.ex"},{line,120}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.206.0>,<0.205.0>]
     messages: []
-    links: [<0.177.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 987
-    stack_size: 27
-    reductions: 1074
-  neighbours:
-2016-05-21 22:45:24 =SUPERVISOR REPORT====
-     Supervisor: {local,ezmq_link_sup}
-     Context:    child_terminated
-     Reason:     {badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-     Offender:   [{pid,<0.202.0>},{id,ezmq_link},{mfargs,{ezmq_link,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
-
-2016-05-21 22:45:49 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:45:50 =ERROR REPORT====
-** State machine <0.202.0> terminating 
-** Last event in was {send,[{normal,<<>>},{normal,<<"Plop">>},{normal,0}]}
-** When State == connected
-**      Data  == {state,client,req,<0.198.0>,<<>>,#Ref<0.0.3.146>,0,#Port<0.6870>,{2,0},[],'$identity',<<>>}
-** Reason for termination = 
-** {badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-21 22:45:50 =CRASH REPORT====
-  crasher:
-    initial call: ezmq_link:init/1
-    pid: <0.202.0>
-    registered_name: []
-    exception exit: {{badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,626}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [ezmq_link_sup,ezmq_sup,<0.175.0>]
-    messages: []
-    links: [<0.177.0>,<0.198.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 1118
-  neighbours:
-2016-05-21 22:45:50 =SUPERVISOR REPORT====
-     Supervisor: {local,ezmq_link_sup}
-     Context:    child_terminated
-     Reason:     {badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-     Offender:   [{pid,<0.202.0>},{id,ezmq_link},{mfargs,{ezmq_link,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
-
-2016-05-21 22:46:19 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:46:19 =ERROR REPORT====
-** State machine <0.215.0> terminating 
-** Last event in was {send,[{normal,<<>>},{normal,<<"Plop">>},{normal,0}]}
-** When State == connected
-**      Data  == {state,client,req,<0.211.0>,<<>>,#Ref<0.0.3.33>,0,#Port<0.6995>,{2,0},[],'$identity',<<>>}
-** Reason for termination = 
-** {badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-21 22:46:19 =CRASH REPORT====
-  crasher:
-    initial call: ezmq_link:init/1
-    pid: <0.215.0>
-    registered_name: []
-    exception exit: {{badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,626}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [ezmq_link_sup,ezmq_sup,<0.188.0>]
-    messages: []
-    links: [<0.190.0>,<0.211.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 987
-    stack_size: 27
-    reductions: 1074
-  neighbours:
-2016-05-21 22:46:19 =SUPERVISOR REPORT====
-     Supervisor: {local,ezmq_link_sup}
-     Context:    child_terminated
-     Reason:     {badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-     Offender:   [{pid,<0.215.0>},{id,ezmq_link},{mfargs,{ezmq_link,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
-
-2016-05-21 22:47:05 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:47:05 =ERROR REPORT====
-** State machine <0.215.0> terminating 
-** Last event in was {send,[{normal,<<>>},{normal,<<"Plop">>},{normal,0}]}
-** When State == connected
-**      Data  == {state,client,req,<0.211.0>,<<>>,#Ref<0.0.1.29>,0,#Port<0.6995>,{2,0},[],'$identity',<<>>}
-** Reason for termination = 
-** {badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-21 22:47:05 =CRASH REPORT====
-  crasher:
-    initial call: ezmq_link:init/1
-    pid: <0.215.0>
-    registered_name: []
-    exception exit: {{badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,626}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [ezmq_link_sup,ezmq_sup,<0.188.0>]
-    messages: []
-    links: [<0.190.0>,<0.211.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 987
-    stack_size: 27
-    reductions: 1074
-  neighbours:
-2016-05-21 22:47:05 =SUPERVISOR REPORT====
-     Supervisor: {local,ezmq_link_sup}
-     Context:    child_terminated
-     Reason:     {badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-     Offender:   [{pid,<0.215.0>},{id,ezmq_link},{mfargs,{ezmq_link,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
-
-2016-05-21 22:51:31 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:51:31 =ERROR REPORT====
-** State machine <0.215.0> terminating 
-** Last event in was {send,[{normal,<<>>},{normal,<<"Plop">>},{normal,0}]}
-** When State == connected
-**      Data  == {state,client,req,<0.211.0>,<<>>,#Ref<0.0.1.159>,0,#Port<0.7010>,{2,0},[],'$identity',<<>>}
-** Reason for termination = 
-** {badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-21 22:51:31 =CRASH REPORT====
-  crasher:
-    initial call: ezmq_link:init/1
-    pid: <0.215.0>
-    registered_name: []
-    exception exit: {{badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,626}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [ezmq_link_sup,ezmq_sup,<0.188.0>]
-    messages: []
-    links: [<0.190.0>,<0.211.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 987
-    stack_size: 27
-    reductions: 1074
-  neighbours:
-2016-05-21 22:51:31 =SUPERVISOR REPORT====
-     Supervisor: {local,ezmq_link_sup}
-     Context:    child_terminated
-     Reason:     {badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-     Offender:   [{pid,<0.215.0>},{id,ezmq_link},{mfargs,{ezmq_link,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
-
-2016-05-21 22:52:41 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:52:42 =ERROR REPORT====
-** State machine <0.215.0> terminating 
-** Last event in was {send,[{normal,<<>>},{normal,<<"Plop">>},{normal,0}]}
-** When State == connected
-**      Data  == {state,client,req,<0.211.0>,<<>>,#Ref<0.0.1.25>,0,#Port<0.7010>,{2,0},[],'$identity',<<>>}
-** Reason for termination = 
-** {badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-21 22:52:42 =CRASH REPORT====
-  crasher:
-    initial call: ezmq_link:init/1
-    pid: <0.215.0>
-    registered_name: []
-    exception exit: {{badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,626}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [ezmq_link_sup,ezmq_sup,<0.188.0>]
-    messages: []
-    links: [<0.190.0>,<0.211.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 1118
-  neighbours:
-2016-05-21 22:52:42 =SUPERVISOR REPORT====
-     Supervisor: {local,ezmq_link_sup}
-     Context:    child_terminated
-     Reason:     {badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-     Offender:   [{pid,<0.215.0>},{id,ezmq_link},{mfargs,{ezmq_link,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
-
-2016-05-21 22:53:27 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:54:52 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:54:53 =SUPERVISOR REPORT====
-     Supervisor: {<0.209.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    start_error
-     Reason:     {'EXIT',{function_clause,[{ezmq,send,[<0.210.0>,{#Ref<0.0.1.219>,<<"Hello world">>}],[{file,"src/ezmq.erl"},{line,85}]},{'Elixir.Karibuex.Server.Unit',loop,1,[{file,"lib/karibuex/server/unit.ex"},{line,13}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,358}]},{supervisor,start_children,3,[{file,"supervisor.erl"},{line,341}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,307}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}}
-     Offender:   [{pid,undefined},{id,'Elixir.Karibuex.Server.Unit'},{mfargs,{'Elixir.Karibuex.Server.Unit',start_link,[5000]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:55:10 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:55:26 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:55:57 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:56:02 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:59:43 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 22:59:43 =ERROR REPORT====
-** State machine <0.216.0> terminating 
-** Last event in was {send,[{normal,<<"Hello world">>},{normal,0}]}
-** When State == connected
-**      Data  == {state,server,router,<0.210.0>,<<>>,#Ref<0.0.4.871>,0,#Port<0.7011>,{2,0},[],'$identity',<<>>}
-** Reason for termination = 
-** {badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-21 22:59:43 =CRASH REPORT====
-  crasher:
-    initial call: ezmq_link:init/1
-    pid: <0.216.0>
-    registered_name: []
-    exception exit: {{badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,626}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [ezmq_link_sup,ezmq_sup,<0.188.0>]
-    messages: []
-    links: [<0.190.0>,<0.210.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 987
-    stack_size: 27
-    reductions: 724
-  neighbours:
-2016-05-21 22:59:43 =SUPERVISOR REPORT====
-     Supervisor: {local,ezmq_link_sup}
-     Context:    child_terminated
-     Reason:     {badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-     Offender:   [{pid,<0.216.0>},{id,ezmq_link},{mfargs,{ezmq_link,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
-
-2016-05-21 23:00:01 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 23:00:23 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 23:00:23 =SUPERVISOR REPORT====
-     Supervisor: {<0.209.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    start_error
-     Reason:     {'EXIT',{function_clause,[{ezmq,send,[<0.210.0>,{#Ref<0.0.3.157>,<<"Hello world">>}],[{file,"src/ezmq.erl"},{line,85}]},{'Elixir.Karibuex.Server.Unit',loop,1,[{file,"lib/karibuex/server/unit.ex"},{line,13}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,358}]},{supervisor,start_children,3,[{file,"supervisor.erl"},{line,341}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,307}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}}
-     Offender:   [{pid,undefined},{id,'Elixir.Karibuex.Server.Unit'},{mfargs,{'Elixir.Karibuex.Server.Unit',start_link,[5000]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 23:01:38 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 23:02:06 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 23:02:45 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 23:02:45 =ERROR REPORT====
-** State machine <0.216.0> terminating 
-** Last event in was {send,[{normal,0},{normal,<<"Hello world">>}]}
-** When State == connected
-**      Data  == {state,server,router,<0.210.0>,<<>>,#Ref<0.0.1.39>,0,#Port<0.7012>,{2,0},[],'$identity',<<>>}
-** Reason for termination = 
-** {badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-21 23:02:45 =CRASH REPORT====
-  crasher:
-    initial call: ezmq_link:init/1
-    pid: <0.216.0>
-    registered_name: []
-    exception exit: {{badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,626}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [ezmq_link_sup,ezmq_sup,<0.188.0>]
-    messages: []
-    links: [<0.190.0>,<0.210.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 987
-    stack_size: 27
-    reductions: 720
-  neighbours:
-2016-05-21 23:02:45 =SUPERVISOR REPORT====
-     Supervisor: {local,ezmq_link_sup}
-     Context:    child_terminated
-     Reason:     {badarg,[{ezmq_frame,encode,[{normal,0}],[{file,"src/ezmq_frame.erl"},{line,107}]},{ezmq_link,send_frames,2,[{file,"src/ezmq_link.erl"},{line,566}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-     Offender:   [{pid,<0.216.0>},{id,ezmq_link},{mfargs,{ezmq_link,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
-
-2016-05-21 23:02:55 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 23:03:20 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 23:03:40 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 23:03:55 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-21 23:04:13 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 02:49:25 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.151.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 02:49:58 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 02:50:44 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 02:50:44 =SUPERVISOR REPORT====
-     Supervisor: {<0.202.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    start_error
-     Reason:     nil
-     Offender:   [{pid,undefined},{id,'Elixir.Karibuex.Server.Uow'},{mfargs,{'Elixir.Karibuex.Server.Uow',start_link,[5000]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 02:52:37 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 02:59:11 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 02:59:30 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 02:59:31 =SUPERVISOR REPORT====
-     Supervisor: {<0.202.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    start_error
-     Reason:     nil
-     Offender:   [{pid,undefined},{id,'Elixir.Karibuex.Server.Uow'},{mfargs,{'Elixir.Karibuex.Server.Uow',start_link,[5000]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:00:15 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:02:24 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:04:24 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:04:55 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:05:00 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:05:54 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:32:08 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:35:53 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:36:14 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:36:36 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:37:22 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:42:34 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:42:35 =ERROR REPORT====
-** State machine <0.202.0> terminating 
-** Last event in was {connect,<0.198.0>,{2,0},req,<<>>,tcp,{127,0,0,1},5001,[binary,{active,false},{send_timeout,5000},{nodelay,true},{packet,raw},{reuseaddr,true}],-1}
-** When State == setup
-**      Data  == {state,undefined,undefined,undefined,<<>>,<<>>,0,undefined,{2,0},[],undefined,<<>>}
-** Reason for termination = 
-** {badarg,[{erlang,start_timer,[-1,<0.202.0>,inet],[]},{inet,start_timer,1,[{file,"inet.erl"},{line,1630}]},{gen_tcp,connect,4,[{file,"gen_tcp.erl"},{line,144}]},{ezmq_link,setup,2,[{file,"src/ezmq_link.erl"},{line,139}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-22 03:42:35 =CRASH REPORT====
-  crasher:
-    initial call: ezmq_link:init/1
-    pid: <0.202.0>
-    registered_name: []
-    exception exit: {{badarg,[{erlang,start_timer,[-1,<0.202.0>,inet],[]},{inet,start_timer,1,[{file,"inet.erl"},{line,1630}]},{gen_tcp,connect,4,[{file,"gen_tcp.erl"},{line,144}]},{ezmq_link,setup,2,[{file,"src/ezmq_link.erl"},{line,139}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,626}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [ezmq_link_sup,ezmq_sup,<0.175.0>]
-    messages: []
-    links: [<0.177.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 987
-    stack_size: 27
-    reductions: 167
-  neighbours:
-2016-05-22 03:42:35 =SUPERVISOR REPORT====
-     Supervisor: {local,ezmq_link_sup}
-     Context:    child_terminated
-     Reason:     {badarg,[{erlang,start_timer,[-1,<0.202.0>,inet],[]},{inet,start_timer,1,[{file,"inet.erl"},{line,1630}]},{gen_tcp,connect,4,[{file,"gen_tcp.erl"},{line,144}]},{ezmq_link,setup,2,[{file,"src/ezmq_link.erl"},{line,139}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-     Offender:   [{pid,<0.202.0>},{id,ezmq_link},{mfargs,{ezmq_link,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
-
-2016-05-22 03:42:56 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:42:56 =ERROR REPORT====
-** State machine <0.202.0> terminating 
-** Last event in was {connect,<0.198.0>,{2,0},req,<<>>,tcp,{127,0,0,1},5000,[binary,{active,false},{send_timeout,5000},{nodelay,true},{packet,raw},{reuseaddr,true}],-1}
-** When State == setup
-**      Data  == {state,undefined,undefined,undefined,<<>>,<<>>,0,undefined,{2,0},[],undefined,<<>>}
-** Reason for termination = 
-** {badarg,[{erlang,start_timer,[-1,<0.202.0>,inet],[]},{inet,start_timer,1,[{file,"inet.erl"},{line,1630}]},{gen_tcp,connect,4,[{file,"gen_tcp.erl"},{line,144}]},{ezmq_link,setup,2,[{file,"src/ezmq_link.erl"},{line,139}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-22 03:42:56 =CRASH REPORT====
-  crasher:
-    initial call: ezmq_link:init/1
-    pid: <0.202.0>
-    registered_name: []
-    exception exit: {{badarg,[{erlang,start_timer,[-1,<0.202.0>,inet],[]},{inet,start_timer,1,[{file,"inet.erl"},{line,1630}]},{gen_tcp,connect,4,[{file,"gen_tcp.erl"},{line,144}]},{ezmq_link,setup,2,[{file,"src/ezmq_link.erl"},{line,139}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,626}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [ezmq_link_sup,ezmq_sup,<0.175.0>]
-    messages: []
-    links: [<0.177.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 987
-    stack_size: 27
-    reductions: 167
-  neighbours:
-2016-05-22 03:42:56 =SUPERVISOR REPORT====
-     Supervisor: {local,ezmq_link_sup}
-     Context:    child_terminated
-     Reason:     {badarg,[{erlang,start_timer,[-1,<0.202.0>,inet],[]},{inet,start_timer,1,[{file,"inet.erl"},{line,1630}]},{gen_tcp,connect,4,[{file,"gen_tcp.erl"},{line,144}]},{ezmq_link,setup,2,[{file,"src/ezmq_link.erl"},{line,139}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-     Offender:   [{pid,<0.202.0>},{id,ezmq_link},{mfargs,{ezmq_link,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
-
-2016-05-22 03:43:36 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:47:09 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:47:44 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:48:47 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:51:28 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:51:47 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:51:57 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:52:41 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:54:18 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:54:23 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:54:51 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:55:32 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:56:07 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 03:56:39 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:27:18 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:27:18 =CRASH REPORT====
-  crasher:
-    initial call: Elixir.Karibuex.Server.Uow:init/1
-    pid: <0.210.0>
-    registered_name: []
-    exception exit: {{bad_return_value,<0.211.0>},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,356}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.209.0>,<0.211.0>]
-    dictionary: []
-    trap_exit: false
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 138
-  neighbours:
-2016-05-22 04:27:18 =SUPERVISOR REPORT====
-     Supervisor: {<0.209.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    start_error
-     Reason:     {'EXIT',{{badmatch,{error,{bad_return_value,<0.211.0>}}},[{'Elixir.Karibuex.Server.Uow',start_link,1,[{file,"lib/karibuex/server/uow.ex"},{line,6}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,358}]},{supervisor,start_children,3,[{file,"supervisor.erl"},{line,341}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,307}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}}
-     Offender:   [{pid,undefined},{id,'Elixir.Karibuex.Server.Uow'},{mfargs,{'Elixir.Karibuex.Server.Uow',start_link,[5000]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:27:18 =ERROR REPORT====
-** Generic server <0.211.0> terminating 
-** Last message in was {'EXIT',<0.210.0>,{bad_return_value,<0.211.0>}}
-** When Server state == {ezmq_socket,{2,0},<0.210.0>,router,{fsm_state,ezmq_socket_router,idle,{state}},<<>>,false,passive,[],none,[],none,[],[{<0.212.0>,[{tcp,5000,[]}]}],[],[]}
-** Reason for termination == 
-** {bad_return_value,<0.211.0>}
-2016-05-22 04:27:18 =CRASH REPORT====
-  crasher:
-    initial call: ezmq:init/1
-    pid: <0.211.0>
-    registered_name: []
-    exception exit: {{bad_return_value,<0.211.0>},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.210.0>,<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.212.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 221
-  neighbours:
-2016-05-22 04:27:18 =ERROR REPORT====
-** Generic server <0.212.0> terminating 
-** Last message in was {'EXIT',<0.211.0>,{bad_return_value,<0.211.0>}}
-** When Server state == {listener_state,false,#Port<0.7012>,0,ezmq_tcp_socket,{<0.211.0>,{2,0},router,<<>>}}
-** Reason for termination == 
-** {bad_return_value,<0.211.0>}
-2016-05-22 04:27:29 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.131.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:27:30 =CRASH REPORT====
-  crasher:
-    initial call: Elixir.Karibuex.Server.Uow:init/1
-    pid: <0.197.0>
-    registered_name: []
-    exception exit: {{bad_return_value,<0.198.0>},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,356}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.196.0>,<0.195.0>,<0.194.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.196.0>,<0.198.0>]
-    dictionary: []
-    trap_exit: false
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 138
-  neighbours:
-2016-05-22 04:27:30 =SUPERVISOR REPORT====
-     Supervisor: {<0.196.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    start_error
-     Reason:     {'EXIT',{{badmatch,{error,{bad_return_value,<0.198.0>}}},[{'Elixir.Karibuex.Server.Uow',start_link,1,[{file,"lib/karibuex/server/uow.ex"},{line,6}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,358}]},{supervisor,start_children,3,[{file,"supervisor.erl"},{line,341}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,307}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}}
-     Offender:   [{pid,undefined},{id,'Elixir.Karibuex.Server.Uow'},{mfargs,{'Elixir.Karibuex.Server.Uow',start_link,[5000]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:27:30 =ERROR REPORT====
-** Generic server <0.198.0> terminating 
-** Last message in was {'EXIT',<0.197.0>,{bad_return_value,<0.198.0>}}
-** When Server state == {ezmq_socket,{2,0},<0.197.0>,router,{fsm_state,ezmq_socket_router,idle,{state}},<<>>,false,passive,[],none,[],none,[],[{<0.202.0>,[{tcp,5000,[]}]}],[],[]}
-** Reason for termination == 
-** {bad_return_value,<0.198.0>}
-2016-05-22 04:27:30 =CRASH REPORT====
-  crasher:
-    initial call: ezmq:init/1
-    pid: <0.198.0>
-    registered_name: []
-    exception exit: {{bad_return_value,<0.198.0>},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.197.0>,<0.196.0>,<0.195.0>,<0.194.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.202.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 221
-  neighbours:
-2016-05-22 04:30:38 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:30:38 =CRASH REPORT====
-  crasher:
-    initial call: Elixir.Karibuex.Server.Uow:init/1
-    pid: <0.210.0>
-    registered_name: []
-    exception exit: {{bad_return_value,<0.211.0>},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,356}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.209.0>,<0.211.0>]
-    dictionary: []
-    trap_exit: false
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 138
-  neighbours:
-2016-05-22 04:30:38 =SUPERVISOR REPORT====
-     Supervisor: {<0.209.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    start_error
-     Reason:     {bad_return_value,<0.211.0>}
-     Offender:   [{pid,undefined},{id,'Elixir.Karibuex.Server.Uow'},{mfargs,{'Elixir.Karibuex.Server.Uow',start_link,[5000]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:30:38 =ERROR REPORT====
-** Generic server <0.211.0> terminating 
-** Last message in was {'EXIT',<0.210.0>,{bad_return_value,<0.211.0>}}
-** When Server state == {ezmq_socket,{2,0},<0.210.0>,router,{fsm_state,ezmq_socket_router,idle,{state}},<<>>,false,passive,[],none,[],none,[],[{<0.215.0>,[{tcp,5000,[]}]}],[],[]}
-** Reason for termination == 
-** {bad_return_value,<0.211.0>}
-2016-05-22 04:30:38 =CRASH REPORT====
-  crasher:
-    initial call: ezmq:init/1
-    pid: <0.211.0>
-    registered_name: []
-    exception exit: {{bad_return_value,<0.211.0>},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.210.0>,<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.215.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 221
-  neighbours:
-2016-05-22 04:31:52 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:31:52 =CRASH REPORT====
-  crasher:
-    initial call: Elixir.Karibuex.Server.Uow:init/1
-    pid: <0.210.0>
-    registered_name: 'Elixir.Karibuex.Server.Uow'
-    exception exit: {{bad_return_value,<0.211.0>},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,356}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.209.0>,<0.211.0>]
-    dictionary: []
-    trap_exit: false
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 140
-  neighbours:
-2016-05-22 04:31:52 =SUPERVISOR REPORT====
-     Supervisor: {<0.209.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    start_error
-     Reason:     {bad_return_value,<0.211.0>}
-     Offender:   [{pid,undefined},{id,'Elixir.Karibuex.Server.Uow'},{mfargs,{'Elixir.Karibuex.Server.Uow',start_link,[5000]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:31:52 =ERROR REPORT====
-** Generic server <0.211.0> terminating 
-** Last message in was {'EXIT',<0.210.0>,{bad_return_value,<0.211.0>}}
-** When Server state == {ezmq_socket,{2,0},<0.210.0>,router,{fsm_state,ezmq_socket_router,idle,{state}},<<>>,false,passive,[],none,[],none,[],[{<0.215.0>,[{tcp,5000,[]}]}],[],[]}
-** Reason for termination == 
-** {bad_return_value,<0.211.0>}
-2016-05-22 04:31:52 =CRASH REPORT====
-  crasher:
-    initial call: ezmq:init/1
-    pid: <0.211.0>
-    registered_name: []
-    exception exit: {{bad_return_value,<0.211.0>},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: ['Elixir.Karibuex.Server.Uow',<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.215.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 221
-  neighbours:
-2016-05-22 04:32:25 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:32:25 =CRASH REPORT====
-  crasher:
-    initial call: Elixir.Karibuex.Server.Uow:init/1
-    pid: <0.210.0>
-    registered_name: 'Elixir.Karibuex.Server.Uow'
-    exception exit: {{bad_return_value,[<0.211.0>]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,356}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.209.0>,<0.211.0>]
-    dictionary: []
-    trap_exit: false
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 140
-  neighbours:
-2016-05-22 04:32:25 =SUPERVISOR REPORT====
-     Supervisor: {<0.209.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    start_error
-     Reason:     {bad_return_value,[<0.211.0>]}
-     Offender:   [{pid,undefined},{id,'Elixir.Karibuex.Server.Uow'},{mfargs,{'Elixir.Karibuex.Server.Uow',start_link,[5000]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:32:25 =ERROR REPORT====
-** Generic server <0.211.0> terminating 
-** Last message in was {'EXIT',<0.210.0>,{bad_return_value,[<0.211.0>]}}
-** When Server state == {ezmq_socket,{2,0},<0.210.0>,router,{fsm_state,ezmq_socket_router,idle,{state}},<<>>,false,passive,[],none,[],none,[],[{<0.215.0>,[{tcp,5000,[]}]}],[],[]}
-** Reason for termination == 
-** {bad_return_value,[<0.211.0>]}
-2016-05-22 04:32:25 =CRASH REPORT====
-  crasher:
-    initial call: ezmq:init/1
-    pid: <0.211.0>
-    registered_name: []
-    exception exit: {{bad_return_value,[<0.211.0>]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: ['Elixir.Karibuex.Server.Uow',<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.215.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 220
-  neighbours:
-2016-05-22 04:33:47 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:35:46 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:35:46 =SUPERVISOR REPORT====
-     Supervisor: {<0.209.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    start_error
-     Reason:     ok
-     Offender:   [{pid,undefined},{id,'Elixir.Karibuex.Server.Uow'},{mfargs,{'Elixir.Karibuex.Server.Uow',start_link,[5000]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:36:10 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:36:33 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:36:48 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
-     Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:36:48 =ERROR REPORT====
-** Generic server 'Elixir.Karibuex.Server.Uow' terminating 
-** Last message in was {'$gen_cast',{loop}}
-** When Server state == <0.211.0>
-** Reason for termination == 
-** {function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-22 04:36:48 =CRASH REPORT====
-  crasher:
-    initial call: Elixir.Karibuex.Server.Uow:init/1
-    pid: <0.210.0>
-    registered_name: 'Elixir.Karibuex.Server.Uow'
-    exception exit: {{function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.209.0>,<0.211.0>]
+    links: [<0.206.0>]
     dictionary: []
     trap_exit: false
     status: running
     heap_size: 610
     stack_size: 27
-    reductions: 182
+    reductions: 116
   neighbours:
-2016-05-22 04:36:48 =SUPERVISOR REPORT====
-     Supervisor: {<0.209.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    shutdown_error
-     Reason:     {function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-     Offender:   [{pid,<0.210.0>},{id,'Elixir.Karibuex.Server.Uow'},{mfargs,{'Elixir.Karibuex.Server.Uow',start_link,[5000]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:36:48 =ERROR REPORT====
-** Generic server <0.211.0> terminating 
-** Last message in was {'EXIT',<0.210.0>,{function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}}
-** When Server state == {ezmq_socket,{2,0},<0.210.0>,router,{fsm_state,ezmq_socket_router,idle,{state}},<<>>,false,passive,[],none,[],none,[],[{<0.215.0>,[{tcp,5000,[]}]}],[],[]}
-** Reason for termination == 
-** {function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-22 04:36:48 =CRASH REPORT====
-  crasher:
-    initial call: ezmq:init/1
-    pid: <0.211.0>
-    registered_name: []
-    exception exit: {{function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: ['Elixir.Karibuex.Server.Uow',<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.215.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 610
-    stack_size: 27
-    reductions: 227
-  neighbours:
-2016-05-22 04:38:30 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
+2016-06-09 12:03:21 =SUPERVISOR REPORT====
+     Supervisor: {<0.206.0>,'Elixir.Karibuex.Server.Supervisor'}
      Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+     Reason:     {{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.24962605>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.220.0>},{id,'Elixir.Karibuex.Server.Listener'},{mfargs,{'Elixir.Karibuex.Server.Listener',start_link,[#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
-2016-05-22 04:38:30 =ERROR REPORT====
-** Generic server 'Elixir.Karibuex.Server.Uow' terminating 
-** Last message in was {recv,infinity}
-** When Server state == <0.211.0>
+2016-06-09 12:03:21 =ERROR REPORT====
+** Task <0.221.0> terminating
+** Started from <0.206.0>
+** When function  == #Fun<erlang.apply.2>
+**      arguments == [#Fun<Elixir.Karibuex.Server.Listener.1.24962605>,[]]
 ** Reason for termination == 
-** {{bad_call,{recv,infinity}},[{'Elixir.Karibuex.Server.Uow',handle_call,3,[{file,"lib/gen_server.ex"},{line,420}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-22 04:38:30 =CRASH REPORT====
+** {{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.24962605>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2016-06-09 12:03:21 =CRASH REPORT====
   crasher:
-    initial call: Elixir.Karibuex.Server.Uow:init/1
-    pid: <0.210.0>
-    registered_name: 'Elixir.Karibuex.Server.Uow'
-    exception exit: {{bad_call,{recv,infinity}},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
+    initial call: erlang:apply/2
+    pid: <0.221.0>
+    registered_name: []
+    exception exit: {{{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.24962605>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{'Elixir.Task.Supervised',exit,4,[{file,"lib/task/supervised.ex"},{line,120}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.206.0>,<0.205.0>]
     messages: []
-    links: [<0.209.0>,<0.211.0>]
+    links: [<0.206.0>]
     dictionary: []
     trap_exit: false
     status: running
     heap_size: 610
     stack_size: 27
-    reductions: 177
+    reductions: 112
   neighbours:
-2016-05-22 04:38:30 =ERROR REPORT====
-** Generic server <0.211.0> terminating 
-** Last message in was {'EXIT',<0.210.0>,{bad_call,{recv,infinity}}}
-** When Server state == {ezmq_socket,{2,0},<0.210.0>,router,{fsm_state,ezmq_socket_router,idle,{state}},<<>>,false,passive,[],none,[],none,[],[{<0.215.0>,[{tcp,5000,[]}]}],[],[]}
-** Reason for termination == 
-** {bad_call,{recv,infinity}}
-2016-05-22 04:38:30 =CRASH REPORT====
-  crasher:
-    initial call: ezmq:init/1
-    pid: <0.211.0>
-    registered_name: []
-    exception exit: {{bad_call,{recv,infinity}},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: ['Elixir.Karibuex.Server.Uow',<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.215.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 219
-  neighbours:
-2016-05-22 04:38:30 =SUPERVISOR REPORT====
-     Supervisor: {<0.209.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    start_error
-     Reason:     {'EXIT',{{bad_call,{recv,infinity}},{gen_server,call,[<0.210.0>,{recv,infinity},infinity]}}}
-     Offender:   [{pid,undefined},{id,'Elixir.Karibuex.Server.Uow'},{mfargs,{'Elixir.Karibuex.Server.Uow',start_link,[5000]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:39:18 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
+2016-06-09 12:03:21 =SUPERVISOR REPORT====
+     Supervisor: {<0.206.0>,'Elixir.Karibuex.Server.Supervisor'}
      Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+     Reason:     {{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.24962605>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.221.0>},{id,'Elixir.Karibuex.Server.Listener'},{mfargs,{'Elixir.Karibuex.Server.Listener',start_link,[#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
-2016-05-22 04:39:18 =ERROR REPORT====
-** Generic server 'Elixir.Karibuex.Server.Uow' terminating 
-** Last message in was {recv,infinity}
-** When Server state == <0.211.0>
+2016-06-09 12:03:21 =ERROR REPORT====
+** Task <0.222.0> terminating
+** Started from <0.206.0>
+** When function  == #Fun<erlang.apply.2>
+**      arguments == [#Fun<Elixir.Karibuex.Server.Listener.1.24962605>,[]]
 ** Reason for termination == 
-** {{bad_call,{recv,infinity}},[{'Elixir.Karibuex.Server.Uow',handle_call,3,[{file,"lib/gen_server.ex"},{line,420}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-22 04:39:18 =CRASH REPORT====
+** {{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.24962605>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2016-06-09 12:03:21 =CRASH REPORT====
   crasher:
-    initial call: Elixir.Karibuex.Server.Uow:init/1
-    pid: <0.210.0>
-    registered_name: 'Elixir.Karibuex.Server.Uow'
-    exception exit: {{bad_call,{recv,infinity}},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
+    initial call: erlang:apply/2
+    pid: <0.222.0>
+    registered_name: []
+    exception exit: {{{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.24962605>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{'Elixir.Task.Supervised',exit,4,[{file,"lib/task/supervised.ex"},{line,120}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.206.0>,<0.205.0>]
     messages: []
-    links: [<0.209.0>,<0.211.0>]
+    links: [<0.206.0>]
     dictionary: []
     trap_exit: false
     status: running
     heap_size: 610
     stack_size: 27
-    reductions: 177
+    reductions: 144
   neighbours:
-2016-05-22 04:39:18 =ERROR REPORT====
-** Generic server <0.211.0> terminating 
-** Last message in was {'EXIT',<0.210.0>,{bad_call,{recv,infinity}}}
-** When Server state == {ezmq_socket,{2,0},<0.210.0>,router,{fsm_state,ezmq_socket_router,idle,{state}},<<>>,false,passive,[],none,[],none,[],[{<0.215.0>,[{tcp,5000,[]}]}],[],[]}
-** Reason for termination == 
-** {bad_call,{recv,infinity}}
-2016-05-22 04:39:18 =CRASH REPORT====
-  crasher:
-    initial call: ezmq:init/1
-    pid: <0.211.0>
-    registered_name: []
-    exception exit: {{bad_call,{recv,infinity}},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: ['Elixir.Karibuex.Server.Uow',<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.215.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 219
-  neighbours:
-2016-05-22 04:39:18 =SUPERVISOR REPORT====
-     Supervisor: {<0.209.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    start_error
-     Reason:     {'EXIT',{{bad_call,{recv,infinity}},{gen_server,call,[<0.210.0>,{recv,infinity},infinity]}}}
-     Offender:   [{pid,undefined},{id,'Elixir.Karibuex.Server.Uow'},{mfargs,{'Elixir.Karibuex.Server.Uow',start_link,[5000]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:39:18 =ERROR REPORT====
-** Generic server <0.215.0> terminating 
-** Last message in was {'EXIT',<0.211.0>,{bad_call,{recv,infinity}}}
-** When Server state == {listener_state,false,#Port<0.6978>,0,ezmq_tcp_socket,{<0.211.0>,{2,0},router,<<>>}}
-** Reason for termination == 
-** {bad_call,{recv,infinity}}
-2016-05-22 04:39:32 =SUPERVISOR REPORT====
-     Supervisor: {local,'Elixir.Logger.Supervisor'}
+2016-06-09 12:03:21 =SUPERVISOR REPORT====
+     Supervisor: {<0.206.0>,'Elixir.Karibuex.Server.Supervisor'}
      Context:    child_terminated
-     Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+     Reason:     {{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.24962605>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.222.0>},{id,'Elixir.Karibuex.Server.Listener'},{mfargs,{'Elixir.Karibuex.Server.Listener',start_link,[#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
-2016-05-22 04:39:32 =ERROR REPORT====
-** Generic server 'Elixir.Karibuex.Server.Uow' terminating 
-** Last message in was {recv,infinity}
-** When Server state == <0.211.0>
+2016-06-09 12:03:21 =ERROR REPORT====
+** Task <0.223.0> terminating
+** Started from <0.206.0>
+** When function  == #Fun<erlang.apply.2>
+**      arguments == [#Fun<Elixir.Karibuex.Server.Listener.1.24962605>,[]]
 ** Reason for termination == 
-** {{bad_call,{recv,infinity}},[{'Elixir.Karibuex.Server.Uow',handle_call,3,[{file,"lib/gen_server.ex"},{line,420}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-22 04:39:32 =CRASH REPORT====
+** {{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.24962605>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2016-06-09 12:03:21 =CRASH REPORT====
   crasher:
-    initial call: Elixir.Karibuex.Server.Uow:init/1
-    pid: <0.210.0>
-    registered_name: 'Elixir.Karibuex.Server.Uow'
-    exception exit: {{bad_call,{recv,infinity}},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
+    initial call: erlang:apply/2
+    pid: <0.223.0>
+    registered_name: []
+    exception exit: {{{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.24962605>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{'Elixir.Task.Supervised',exit,4,[{file,"lib/task/supervised.ex"},{line,120}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.206.0>,<0.205.0>]
     messages: []
-    links: [<0.209.0>,<0.211.0>]
+    links: [<0.206.0>]
     dictionary: []
     trap_exit: false
     status: running
     heap_size: 610
     stack_size: 27
-    reductions: 177
+    reductions: 160
   neighbours:
-2016-05-22 04:39:32 =ERROR REPORT====
-** Generic server <0.211.0> terminating 
-** Last message in was {'EXIT',<0.210.0>,{bad_call,{recv,infinity}}}
-** When Server state == {ezmq_socket,{2,0},<0.210.0>,router,{fsm_state,ezmq_socket_router,idle,{state}},<<>>,false,passive,[],none,[],none,[],[{<0.215.0>,[{tcp,5000,[]}]}],[],[]}
-** Reason for termination == 
-** {bad_call,{recv,infinity}}
-2016-05-22 04:39:32 =CRASH REPORT====
-  crasher:
-    initial call: ezmq:init/1
-    pid: <0.211.0>
-    registered_name: []
-    exception exit: {{bad_call,{recv,infinity}},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: ['Elixir.Karibuex.Server.Uow',<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.215.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 223
-  neighbours:
-2016-05-22 04:39:32 =SUPERVISOR REPORT====
-     Supervisor: {<0.209.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    start_error
-     Reason:     {'EXIT',{{bad_call,{recv,infinity}},{gen_server,call,[<0.210.0>,{recv,infinity},infinity]}}}
-     Offender:   [{pid,undefined},{id,'Elixir.Karibuex.Server.Uow'},{mfargs,{'Elixir.Karibuex.Server.Uow',start_link,[5000]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+2016-06-09 12:03:21 =SUPERVISOR REPORT====
+     Supervisor: {<0.206.0>,'Elixir.Karibuex.Server.Supervisor'}
+     Context:    child_terminated
+     Reason:     {{badarity,{#Fun<Elixir.Karibuex.Server.Listener.1.24962605>,[]}},[{erlang,apply,2,[]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,89}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.223.0>},{id,'Elixir.Karibuex.Server.Listener'},{mfargs,{'Elixir.Karibuex.Server.Listener',start_link,[#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
-2016-05-22 04:39:32 =ERROR REPORT====
-** Generic server <0.215.0> terminating 
-** Last message in was {'EXIT',<0.211.0>,{bad_call,{recv,infinity}}}
-** When Server state == {listener_state,false,#Port<0.6978>,0,ezmq_tcp_socket,{<0.211.0>,{2,0},router,<<>>}}
-** Reason for termination == 
-** {bad_call,{recv,infinity}}
-2016-05-22 04:39:49 =SUPERVISOR REPORT====
+2016-06-09 12:03:21 =SUPERVISOR REPORT====
+     Supervisor: {<0.206.0>,'Elixir.Karibuex.Server.Supervisor'}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.223.0>},{id,'Elixir.Karibuex.Server.Listener'},{mfargs,{'Elixir.Karibuex.Server.Listener',start_link,[#{'__struct__' => 'Elixir.Karibuex.Config',modules => ['Elixir.UserModuleTest'],modules_str => [<<"UserModuleTest">>],port => 5000,timeout => 1000,workers => 10}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 12:06:59 =SUPERVISOR REPORT====
      Supervisor: {local,'Elixir.Logger.Supervisor'}
      Context:    child_terminated
      Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
-2016-05-22 04:39:49 =ERROR REPORT====
-** Generic server 'Elixir.Karibuex.Server.Uow' terminating 
-** Last message in was {recv,infinity}
-** When Server state == <0.211.0>
-** Reason for termination == 
-** {{bad_call,{recv,infinity}},[{'Elixir.Karibuex.Server.Uow',handle_call,3,[{file,"lib/gen_server.ex"},{line,420}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-22 04:39:49 =CRASH REPORT====
-  crasher:
-    initial call: Elixir.Karibuex.Server.Uow:init/1
-    pid: <0.210.0>
-    registered_name: 'Elixir.Karibuex.Server.Uow'
-    exception exit: {{bad_call,{recv,infinity}},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.209.0>,<0.211.0>]
-    dictionary: []
-    trap_exit: false
-    status: running
-    heap_size: 610
-    stack_size: 27
-    reductions: 177
-  neighbours:
-2016-05-22 04:39:49 =ERROR REPORT====
-** Generic server <0.211.0> terminating 
-** Last message in was {'EXIT',<0.210.0>,{bad_call,{recv,infinity}}}
-** When Server state == {ezmq_socket,{2,0},<0.210.0>,router,{fsm_state,ezmq_socket_router,idle,{state}},<<>>,false,passive,[],none,[],none,[],[{<0.215.0>,[{tcp,5000,[]}]}],[],[]}
-** Reason for termination == 
-** {bad_call,{recv,infinity}}
-2016-05-22 04:39:49 =CRASH REPORT====
-  crasher:
-    initial call: ezmq:init/1
-    pid: <0.211.0>
-    registered_name: []
-    exception exit: {{bad_call,{recv,infinity}},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: ['Elixir.Karibuex.Server.Uow',<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.215.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 223
-  neighbours:
-2016-05-22 04:39:49 =SUPERVISOR REPORT====
-     Supervisor: {<0.209.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    start_error
-     Reason:     {'EXIT',{{bad_call,{recv,infinity}},{gen_server,call,[<0.210.0>,{recv,infinity},infinity]}}}
-     Offender:   [{pid,undefined},{id,'Elixir.Karibuex.Server.Uow'},{mfargs,{'Elixir.Karibuex.Server.Uow',start_link,[5000]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:40:29 =SUPERVISOR REPORT====
+2016-06-09 12:09:17 =SUPERVISOR REPORT====
      Supervisor: {local,'Elixir.Logger.Supervisor'}
      Context:    child_terminated
      Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
-2016-05-22 04:40:30 =ERROR REPORT====
-** Generic server 'Elixir.Karibuex.Server.Uow' terminating 
-** Last message in was {'$gen_cast',{loop}}
-** When Server state == <0.211.0>
-** Reason for termination == 
-** {function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-22 04:40:30 =CRASH REPORT====
-  crasher:
-    initial call: Elixir.Karibuex.Server.Uow:init/1
-    pid: <0.210.0>
-    registered_name: 'Elixir.Karibuex.Server.Uow'
-    exception exit: {{function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.209.0>,<0.211.0>]
-    dictionary: []
-    trap_exit: false
-    status: running
-    heap_size: 610
-    stack_size: 27
-    reductions: 182
-  neighbours:
-2016-05-22 04:40:30 =ERROR REPORT====
-** Generic server <0.211.0> terminating 
-** Last message in was {'EXIT',<0.210.0>,{function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}}
-** When Server state == {ezmq_socket,{2,0},<0.210.0>,router,{fsm_state,ezmq_socket_router,idle,{state}},<<>>,false,passive,[],none,[],none,[],[{<0.215.0>,[{tcp,5000,[]}]}],[],[]}
-** Reason for termination == 
-** {function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-22 04:40:30 =CRASH REPORT====
-  crasher:
-    initial call: ezmq:init/1
-    pid: <0.211.0>
-    registered_name: []
-    exception exit: {{function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: ['Elixir.Karibuex.Server.Uow',<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.215.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 610
-    stack_size: 27
-    reductions: 227
-  neighbours:
-2016-05-22 04:40:30 =SUPERVISOR REPORT====
-     Supervisor: {<0.209.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    child_terminated
-     Reason:     {function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-     Offender:   [{pid,<0.210.0>},{id,'Elixir.Karibuex.Server.Uow'},{mfargs,{'Elixir.Karibuex.Server.Uow',start_link,[5000]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:41:29 =SUPERVISOR REPORT====
+2016-06-09 12:12:08 =SUPERVISOR REPORT====
      Supervisor: {local,'Elixir.Logger.Supervisor'}
      Context:    child_terminated
      Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
-2016-05-22 04:41:29 =ERROR REPORT====
-** Generic server 'Elixir.Karibuex.Server.Uow' terminating 
-** Last message in was {'$gen_cast',{loop}}
-** When Server state == <0.211.0>
-** Reason for termination == 
-** {function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-22 04:41:29 =CRASH REPORT====
-  crasher:
-    initial call: Elixir.Karibuex.Server.Uow:init/1
-    pid: <0.210.0>
-    registered_name: 'Elixir.Karibuex.Server.Uow'
-    exception exit: {{function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.209.0>,<0.211.0>]
-    dictionary: []
-    trap_exit: false
-    status: running
-    heap_size: 610
-    stack_size: 27
-    reductions: 182
-  neighbours:
-2016-05-22 04:41:29 =ERROR REPORT====
-** Generic server <0.211.0> terminating 
-** Last message in was {'EXIT',<0.210.0>,{function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}}
-** When Server state == {ezmq_socket,{2,0},<0.210.0>,router,{fsm_state,ezmq_socket_router,idle,{state}},<<>>,false,passive,[],none,[],none,[],[{<0.215.0>,[{tcp,5000,[]}]}],[],[]}
-** Reason for termination == 
-** {function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-22 04:41:29 =CRASH REPORT====
-  crasher:
-    initial call: ezmq:init/1
-    pid: <0.211.0>
-    registered_name: []
-    exception exit: {{function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: ['Elixir.Karibuex.Server.Uow',<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.215.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 610
-    stack_size: 27
-    reductions: 227
-  neighbours:
-2016-05-22 04:41:29 =SUPERVISOR REPORT====
-     Supervisor: {<0.209.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    child_terminated
-     Reason:     {function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-     Offender:   [{pid,<0.210.0>},{id,'Elixir.Karibuex.Server.Uow'},{mfargs,{'Elixir.Karibuex.Server.Uow',start_link,[5000]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:42:31 =SUPERVISOR REPORT====
+2016-06-09 12:12:38 =SUPERVISOR REPORT====
      Supervisor: {local,'Elixir.Logger.Supervisor'}
      Context:    child_terminated
      Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+     Offender:   [{pid,<0.141.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
-2016-05-22 04:42:32 =ERROR REPORT====
-** Generic server 'Elixir.Karibuex.Server.Uow' terminating 
-** Last message in was {'$gen_cast',{loop}}
-** When Server state == <0.211.0>
-** Reason for termination == 
-** {function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-22 04:42:32 =CRASH REPORT====
-  crasher:
-    initial call: Elixir.Karibuex.Server.Uow:init/1
-    pid: <0.210.0>
-    registered_name: 'Elixir.Karibuex.Server.Uow'
-    exception exit: {{function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.209.0>,<0.211.0>]
-    dictionary: []
-    trap_exit: false
-    status: running
-    heap_size: 610
-    stack_size: 27
-    reductions: 182
-  neighbours:
-2016-05-22 04:42:32 =ERROR REPORT====
-** Generic server <0.211.0> terminating 
-** Last message in was {'EXIT',<0.210.0>,{function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}}
-** When Server state == {ezmq_socket,{2,0},<0.210.0>,router,{fsm_state,ezmq_socket_router,idle,{state}},<<>>,false,passive,[],none,[],none,[],[{<0.215.0>,[{tcp,5000,[]}]}],[],[]}
-** Reason for termination == 
-** {function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-22 04:42:32 =CRASH REPORT====
-  crasher:
-    initial call: ezmq:init/1
-    pid: <0.211.0>
-    registered_name: []
-    exception exit: {{function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: ['Elixir.Karibuex.Server.Uow',<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.215.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 610
-    stack_size: 27
-    reductions: 227
-  neighbours:
-2016-05-22 04:42:32 =SUPERVISOR REPORT====
-     Supervisor: {<0.209.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    child_terminated
-     Reason:     {function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-     Offender:   [{pid,<0.210.0>},{id,'Elixir.Karibuex.Server.Uow'},{mfargs,{'Elixir.Karibuex.Server.Uow',start_link,[5000]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:42:32 =ERROR REPORT====
-** Generic server <0.215.0> terminating 
-** Last message in was {'EXIT',<0.211.0>,{function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}}
-** When Server state == {listener_state,false,#Port<0.6978>,0,ezmq_tcp_socket,{<0.211.0>,{2,0},router,<<>>}}
-** Reason for termination == 
-** {function_clause,[{'Elixir.Karibuex.Server.Uow',handle_cast,[{loop},<0.211.0>],[{file,"lib/karibuex/server/uow.ex"},{line,28}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2016-05-22 04:53:28 =SUPERVISOR REPORT====
+2016-06-09 12:18:37 =SUPERVISOR REPORT====
      Supervisor: {local,'Elixir.Logger.Supervisor'}
      Context:    child_terminated
      Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+     Offender:   [{pid,<0.228.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
-2016-05-22 04:53:29 =ERROR REPORT====
-** Generic server 'Elixir.Karibuex.Server.Uow' terminating 
-** Last message in was {start_loop}
-** When Server state == <0.211.0>
-** Reason for termination == 
-** {bad_return_value,{no_reply,<0.211.0>}}
-2016-05-22 04:53:29 =CRASH REPORT====
-  crasher:
-    initial call: Elixir.Karibuex.Server.Uow:init/1
-    pid: <0.210.0>
-    registered_name: 'Elixir.Karibuex.Server.Uow'
-    exception exit: {{bad_return_value,{no_reply,<0.211.0>}},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.209.0>,<0.211.0>]
-    dictionary: []
-    trap_exit: false
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 176
-  neighbours:
-2016-05-22 04:53:29 =ERROR REPORT====
-** Generic server <0.211.0> terminating 
-** Last message in was {'EXIT',<0.210.0>,{bad_return_value,{no_reply,<0.211.0>}}}
-** When Server state == {ezmq_socket,{2,0},<0.210.0>,router,{fsm_state,ezmq_socket_router,idle,{state}},<<>>,false,passive,[],none,[],none,[],[{<0.215.0>,[{tcp,5000,[]}]}],[],[]}
-** Reason for termination == 
-** {bad_return_value,{no_reply,<0.211.0>}}
-2016-05-22 04:53:29 =CRASH REPORT====
-  crasher:
-    initial call: ezmq:init/1
-    pid: <0.211.0>
-    registered_name: []
-    exception exit: {{bad_return_value,{no_reply,<0.211.0>}},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: ['Elixir.Karibuex.Server.Uow',<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: []
-    links: [<0.215.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 219
-  neighbours:
-2016-05-22 04:53:29 =SUPERVISOR REPORT====
-     Supervisor: {<0.209.0>,'Elixir.Karibuex.Server.Supervisor'}
-     Context:    child_terminated
-     Reason:     {bad_return_value,{no_reply,<0.211.0>}}
-     Offender:   [{pid,<0.210.0>},{id,'Elixir.Karibuex.Server.Uow'},{mfargs,{'Elixir.Karibuex.Server.Uow',start_link,[5000]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2016-05-22 04:53:29 =ERROR REPORT====
-** Generic server <0.215.0> terminating 
-** Last message in was {'EXIT',<0.211.0>,{bad_return_value,{no_reply,<0.211.0>}}}
-** When Server state == {listener_state,false,#Port<0.6976>,0,ezmq_tcp_socket,{<0.211.0>,{2,0},router,<<>>}}
-** Reason for termination == 
-** {bad_return_value,{no_reply,<0.211.0>}}
-2016-05-22 04:53:29 =CRASH REPORT====
-  crasher:
-    initial call: gen_listener_tcp:init/1
-    pid: <0.215.0>
-    registered_name: []
-    exception exit: {{bad_return_value,{no_reply,<0.211.0>}},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.211.0>,'Elixir.Karibuex.Server.Uow',<0.209.0>,<0.208.0>,<0.207.0>,'Elixir.ESpec.Runner',<0.47.0>]
-    messages: [{inet_async,#Port<0.6976>,0,{error,closed}}]
-    links: []
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 610
-    stack_size: 27
-    reductions: 690
-  neighbours:
-2016-05-22 04:56:32 =SUPERVISOR REPORT====
+2016-06-09 12:21:00 =SUPERVISOR REPORT====
      Supervisor: {local,'Elixir.Logger.Supervisor'}
      Context:    child_terminated
      Reason:     normal
-     Offender:   [{pid,<0.144.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+     Offender:   [{pid,<0.228.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 12:23:17 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.154.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-06-09 12:26:39 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.228.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500},link]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 

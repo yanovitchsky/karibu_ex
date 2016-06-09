@@ -30,3 +30,23 @@ use Mix.Config
 #     import_config "#{Mix.env}.exs"
 
 config :karibuex, port: 5000
+config :karibuex, modules: [UserModuleTest]
+config :karibuex, timeout: 1000
+config :karibuex, workers: 10
+# config :karibuex, log: "log/#{Mix.env}.log"
+# config :karibuex, error_log: "log/#{Mix.env}.error.log"
+
+config :logger, backends: [{LoggerFileBackend, :info}, {LoggerFileBackend, :error}, :console]
+
+config :logger, :console,
+  format: "[$level] [$date $time] $message\n"
+
+config :logger, :info,
+  path: "log/#{Mix.env}.log",
+  level: :info,
+  format: "[$level] [$date $time] $message\n"
+
+config :logger, :error,
+  path: "log/#{Mix.env}.error.log",
+  level: :error,
+  format: "[$level] [$date $time] $message\n"

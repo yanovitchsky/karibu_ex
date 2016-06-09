@@ -29,7 +29,7 @@ defmodule Karibuex.Msg.Request do
           # check_type(metas, :list)
         ]
         # IO.puts array
-        the_check = array |> Enum.member? false
+        the_check = array |> Enum.member?(false)
         if the_check == true do
           {:error, :bad_format}
         else

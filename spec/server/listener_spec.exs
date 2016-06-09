@@ -1,5 +1,5 @@
 # Test if server launches with correct options
-defmodule Karibuex.ServerSpec do
+defmodule Karibuex.ListenerSpec do
   use ESpec
 
 
@@ -7,9 +7,9 @@ defmodule Karibuex.ServerSpec do
     before do
       {:ok, pid} = Task.Supervisor.start_link()
       Task.Supervisor.async(pid, fn ->
-        Karibuex.Server.Supervisor.start_link
+        {:shared,server: Karibuex.Server.Supervisor.start_link}
       end)
-      {:shared, server_pid: pid}
+      # {:shared, server: supervisor}
     end
 
     it "receive incoming connection" do
@@ -21,8 +21,8 @@ defmodule Karibuex.ServerSpec do
       end
 
 
-    xit "restarts when crashed" do
-
+    it "restarts when crashed" do
+      IO.inspect Supervisor.which_children(server)
     end
   end
 
