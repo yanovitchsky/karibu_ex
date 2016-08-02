@@ -23,8 +23,8 @@ defmodule Karibuex.Mixfile do
   # Type "mix help compile.app" for more information
   def application do
     [
-      applications: [:logger, :ezmq, :poolboy, :msgpax]
-      # mod: { Karibuex, [] }
+      applications: [:logger, :ezmq, :poolboy, :msgpax],
+      mod: { Karibuex, [] }
     ]
   end
 
