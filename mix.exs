@@ -23,7 +23,7 @@ defmodule Karibuex.Mixfile do
   # Type "mix help compile.app" for more information
   def application do
     [
-      applications: [:logger, :ezmq, :poolboy, :msgpax],
+      applications: [:logger, :ezmq, :poolboy, :msgpax, :rollbax],
       mod: { Karibuex, [] }
     ]
   end
@@ -45,7 +45,8 @@ defmodule Karibuex.Mixfile do
       {:logger_file_backend, "0.0.7"},
       {:towel, "~> 0.2.1"},
       {:ex_doc,  "~> 0.11", only: :docs},
-      {:espec, "~> 0.8.18", only: :test}
+      {:espec, "~> 0.8.18", only: :test},
+      {:rollbax, "~> 0.6"}
     ]
   end
 
@@ -56,4 +57,5 @@ defmodule Karibuex.Mixfile do
   defp elixirc_paths(:test), do: ["lib", "spec/support"]
   defp elixirc_paths(_), do: ["lib", "user_test"]
   # defp elixirc_paths(_), do: ["lib"]
+
 end
