@@ -1,7 +1,8 @@
 defmodule UserModuleTest do
   def echo(str) do
-    :timer.sleep(100)
-    str
+    # :timer.sleep(100)
+    # str
+    "I have received #{str}"
   end
 
   def sort(list) do

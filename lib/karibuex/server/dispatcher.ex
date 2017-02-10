@@ -26,7 +26,8 @@ defmodule Karibuex.Server.Dispatcher do
     # Please handle bad parsing for the next release
 
     case parse_request(request) do
-      {:ok, res} -> process_rpc(pid, res)
+      {:ok, res} ->
+         process_rpc(pid, res)
       {:error, err} -> "unknow format for karibu"
     end
 
@@ -55,29 +56,41 @@ defmodule Karibuex.Server.Dispatcher do
     check_result = check_user_modules(payload, config)
     case check_result do
       {:ok, mod, func} ->
-        task = Task.async(fn ->
-          try do
-            :timer.tc(mod, func, payload[:params])
-          catch
-            :throw,reason -> # Catch programmer throw and raise a custom error with the right stack
-              stack = System.stacktrace()
-              {:error, Karibu.NocatchError, reason, stack}
-            :error, reason -> reason
-          end
-        end)
-        case Task.yield(task, config.timeout) do
-          {:ok, result} -> {:ok, result}
-            case result do
-              {:error, error_mod, reason, stack} ->
-                reraise(error_mod, [message: reason], stack)
-                _ -> {:ok, result}
-            end
-          nil           -> # task has timed out
-            Task.shutdown(task,:brutal_kill)
-            handle_errors(:timeout, payload)
-        end
-      _ -> handle_errors(check_result, payload)
+        Wormhole.capture(:timer, :tc, [mod, func, payload[:params]], timeout_ms: config.timeout)
+      _ ->
+        handle_errors(check_result, payload)
     end
+    # case check_result do
+    #   {:ok, mod, func} ->
+    #     task = Task.async(fn ->
+    #       try do
+    #         :timer.tc(mod, func, payload[:params])
+    #       catch
+    #         :throw,reason -> # Catch programmer throw and raise a custom error with the right stack
+    #           stack = System.stacktrace()
+    #           {:error, Karibu.NocatchError, to_string(reason), stack}
+    #         :error, reason ->
+    #           IO.inspect "-----------------------------I VE GOT AN ERROR"
+    #           IO.inspect reason
+    #           IO.inspect "----------------------------------------------"
+    #           stack = System.stacktrace()
+    #           {:error, Karibu.NocatchError, to_string(reason), stack}
+    #       end
+    #     end)
+    #     case Task.yield(task, config.timeout) do
+    #       {:ok, result} -> {:ok, result}
+    #         case result do
+    #           {:error, error_mod, reason, stack} ->
+    #             IO.inspect  "----------------- ABOUT TO RERAISE"
+    #             reraise(error_mod, [message: reason], stack)
+    #             _ -> {:ok, result}
+    #         end
+    #       nil           -> # task has timed out
+    #         Task.shutdown(task,:brutal_kill)
+    #         handle_errors(:timeout, payload)
+    #     end
+    #   _ -> handle_errors(check_result, payload)
+    # end
   end
 
   defp check_user_modules(payload, config) do
@@ -137,9 +150,11 @@ defmodule Karibuex.Server.Dispatcher do
   end
 
   def log_error(time, error, payload) do
+    IO.inspect "logging error"
     params = List.first(payload[:params])
     {err, err_msg} = error
     message = "resource=#{payload[:resource]} method=#{payload[:method]} params=#{inspect params} status=9700 duration=#{time} #{err_msg}"
+    IO.inspect "=================== #{message}"
     Logger.error(message)
   end
 
@@ -168,30 +183,56 @@ defmodule Karibuex.Server.Dispatcher do
         Karibuex.Msg.Response.encode(payload[:id], nil, result)
       {error, msg}  ->
         klass = error |> to_string |> Mix.Utils.camelize
+        IO.inspect klass
         Karibuex.Msg.Response.encode(payload[:id], %{klass: klass, msg: msg}, nil)
         # response
     end
   end
 
   defp process_rpc(pid, payload) do
-    try do
-      res = execute(pid, payload)
-      case res do
-        {:ok, {time, result}} ->
-          log(time/1000, payload)
-          prepare_response({:ok,result}, payload)
-        _ ->
-          log_error(0, res, payload)
-          prepare_response(res, payload)
-      end
-    rescue
-       exception ->
-         stack = System.stacktrace
-        #  Rollbax.report(exception, stack, payload)
-         res = {:server_error, "An error has occured please try again"}
-         log_error(0, res, payload)
-         prepare_response(res, payload)
+    res = execute(pid, payload)
+    # IO.inspect "Here is res"
+    # IO.inspect res
+    case res do
+      {:ok, {time, result}} ->
+        log(time/1000, payload)
+        prepare_response({:ok,result}, payload)
+      {:error, reason} ->
+        {_, error, stacktrace} = reason
+        Task.async(fn ->
+          Rollbax.report(:exit, error, stacktrace, payload)
+        end)
+        err = {:server_error, "An error has occured please try again"}
+        log_error(0, err, payload)
+        prepare_response(err, payload)
     end
+    # try do
+    #   res = execute(pid, payload)
+    #   IO.inspect "-------------- WHAT DOES IT GIVE ME"
+    #   IO.inspect res
+    #   IO.inspect "-----------------------------------"
+    #   case res do
+    #     {:ok, {time, result}} ->
+    #       log(time/1000, payload)
+    #       prepare_response({:ok,result}, payload)
+    #     _ ->
+    #       log_error(0, res, payload)
+    #       prepare_response(res, payload)
+    #   end
+    # rescue
+    #    exception ->
+    #      IO.inspect "--------------------------------------------------------"
+    #      IO.inspect "JE RESCUE HERE"
+    #      IO.inspect "--------------------------------------------------------"
+    #      stack = System.stacktrace
+    #      Rollbax.report(exception, stack, payload)
+    #      res = {:server_error, "An error has occured please try again"}
+    #      log_error(0, res, payload)
+    #      prepare_response(res, payload)
+    #   anything ->
+    #     IO.inspect "-------------------------------------------- BOFFFF COMPREND PAS"
+    #     IO.inspect anything
+    # end
   end
 
 end

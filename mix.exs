@@ -23,7 +23,7 @@ defmodule Karibuex.Mixfile do
   # Type "mix help compile.app" for more information
   def application do
     [
-      applications: [:logger, :ezmq, :poolboy, :msgpax, :rollbax],
+      applications: [:logger, :ezmq, :poolboy, :msgpax, :wormhole, :rollbax],
       mod: { Karibuex, [] }
     ]
   end
@@ -46,7 +46,8 @@ defmodule Karibuex.Mixfile do
       {:towel, "~> 0.2.1"},
       {:ex_doc,  "~> 0.11", only: :docs},
       {:espec, "~> 0.8.18", only: :test},
-      {:rollbax, "~> 0.6"}
+      {:rollbax, "~> 0.6"},
+      {:wormhole, github: "yanovitchsky/wormhole"}
     ]
   end
 
