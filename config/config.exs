@@ -33,6 +33,9 @@ config :karibuex, port: 5000
 config :karibuex, modules: [UserModuleTest]
 config :karibuex, timeout: 1000
 config :karibuex, workers: 10
+
+config :karibuex, formatter: Karibu.Logger.Formatter
+
 # config :karibuex, log: "log/#{Mix.env}.log"
 # config :karibuex, error_log: "log/#{Mix.env}.error.log"
 

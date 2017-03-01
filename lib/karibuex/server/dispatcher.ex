@@ -150,19 +150,16 @@ defmodule Karibuex.Server.Dispatcher do
   end
 
   def log_error(time, error, payload) do
-    IO.inspect "logging error"
-    params = List.first(payload[:params])
-    {err, err_msg} = error
+    formatter_klass = get_formatter()
+    [params, err_msg] = apply(formatter_klass, :format_error, [payload[:params], error])
     message = "resource=#{payload[:resource]} method=#{payload[:method]} params=#{inspect params} status=9700 duration=#{time} #{err_msg}"
-    IO.inspect "=================== #{message}"
     Logger.error(message)
   end
 
   def log(time, payload) do
-    params = List.first(payload[:params])
+    formatter_klass = get_formatter()
+    params = apply(formatter_klass, :format, [payload[:params]])
     message = "resource=#{payload[:resource]} method=#{payload[:method]} params=#{inspect params} status=9800 duration=#{time}"
-    # IO.puts message
-    # IO.puts "resource=#{payload[:resource]} method=#{payload[:method]} params=#{payload[:params]}"
     Logger.info(message)
   end
 
@@ -235,4 +232,11 @@ defmodule Karibuex.Server.Dispatcher do
     # end
   end
 
+  defp get_formatter do
+    if (klass = Application.get_env(:karibuex, :formatter)) != nil do
+      klass
+    else
+      Karibuex.Logger.Formatter
+    end
+  end
 end
